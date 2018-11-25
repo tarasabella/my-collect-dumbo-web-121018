@@ -5,10 +5,9 @@ while i < collection.length
 new_collection << yield(collectio[i])
   i += 1 
 end 
-my_collect(languages) do |lang|
-  lang.upcase
+new_collection
 end
-end 
+
 
 
   
