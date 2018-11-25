@@ -1,4 +1,5 @@
 def my_collect(collection)
+i = 0 
 collection = []
 yield(collection)
   counter += 1 
