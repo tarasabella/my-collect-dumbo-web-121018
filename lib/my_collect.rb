@@ -2,7 +2,7 @@ def my_collect(collection)
 i = 0 
 new_collection = []
 while i < collection.length 
-yield(collection)
+new_collection << yield(collectio[i])
   counter += 1 
 my_collect(students) do |name|
   name.split(" ").first 
