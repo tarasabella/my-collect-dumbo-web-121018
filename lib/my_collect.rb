@@ -5,7 +5,7 @@ yield(collection)
 my_collect(students) do |name|
   name.split(" ").first 
 end 
-my_collect() do |lang|
+my_collect(languages) do |lang|
   lang.upcase
 end
 end 
