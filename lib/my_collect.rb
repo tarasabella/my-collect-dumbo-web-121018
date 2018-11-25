@@ -1,6 +1,6 @@
 def my_collect(collection)
 i = 0 
-collection = []
+new_collection = []
 yield(collection)
   counter += 1 
 my_collect(students) do |name|
